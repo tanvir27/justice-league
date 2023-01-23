@@ -18,13 +18,13 @@
 
     <!-- header section start  -->
     <header>
-        <nav class="navbar navbar-expand-lg bg-body-tertiary mb-4">
+      <!-- nav bar start -->
+        <nav class="navbar navbar-expand-lg bg-body-tertiary mb-sm-0 mb-lg-4">
             <div class="container">
              <img src="images/logo2.png" alt="">
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
               </button>
-
 
               <div class="collapse navbar-collapse " id="navbarSupportedContent">
                 <ul class="navbar-nav ms-auto me-auto mb-2 mb-lg-0 gap-4">
@@ -45,41 +45,47 @@
                   </li>
 
                 </ul>
-                <button class="btn primary-color" type="submit">Free Consultation</button>
+                <button class="btn btn-danger" type="submit">Free Consultation</button>
               </div>
              
             </div>
           </nav>
 
-          <!-- banner section 
+          <!-- banner section  start
          -->
+        <section class=" container banner-section  pt-5">
+          <h1 class="mt-5
+           fw-bold display-3 h1 text-center text-white">We Provide Effective <br> Legal Solutions</h1>
+          <p class="mt-3 text-white text-center px-5">We provide effective legal solutions tailored to meet the specific needs of our clients. Our team of experienced attorneys is dedicated to achieving favorable outcomes and protecting our clients' rights.</p>
 
-         <section class="container banner-section ">
-            <div class="text-white text-center py-auto">
-                <h1 class="">We Provide Effective  Legal Solutions</h1>
-                <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
-                        <input type="text" class="form-control w-50  d-inline" id="" placeholder="Search your Services">
-                        <button type="button" class="btn primary-color">Danger</button>
-         
-            </div>
-         </section>
+          <form class="row g-3 justify-content-center mt-3">
+              <div class="col-auto">
+                <label for="text" class="visually-hidden">Search your services</label>
+                <input type="text" class="form-control py-3" id="text" placeholder="Search your services" size="50">
+              </div>
+              <div class="col-auto ">
+                <button type="submit" class="btn btn-danger mb-3 py-2 px-4 text-white mb-4 fw-bold fs-3">Search</button>
+              </div>
+            </form>
+      </section>
+       
     </header>
 
-    <!-- main section  -->
+    <!-- main section start here -->
 
     <main>
       <!-- legal practice area -->
-      <section class="container mt-5 legal-practice text-center">
+      <section class="container my-5 legal-practice text-center">
         <h1 class="mb-4 fw-bold">
           The Legal Practice Area
         </h1>
         <p class="mb-5 text-color">
-          There are many variations of passages of Lorem Ipsum available, but the majority <br> have suffered alteration in some form, by injected humour.
+          There are many variations of passages of Lorem Ipsum available, but the  majority some form, by injected <br> humour  have  suffered alteration in some form, by injected humour.
         </p>
 
         <div class="row row-cols-1 row-cols-md-3 g-4 text-center mx-auto ">
           <div class="col px-5">
-            <div class="card h-100 py-5 px-lg-3">
+            <div class=" h-100 py-5 px-lg-3">
               <img src="images/business.png" class="w-25 mx-auto mb-4" alt="...">
               <div class="card-body">
                 <h2 class="card-title mb-4 fw-bold">Business Law</h2>
@@ -88,8 +94,8 @@
               </div>
             </div>
           </div>
-          <div class="col px-5">
-            <div class="card h-100 py-5 px-lg-3">
+          <div class="col px-5 card-background-shadow">
+            <div class=" h-100 py-5 px-lg-3">
               <img src="images/criminal.png" class="w-25 mx-auto mb-4" alt="...">
               <div class="card-body">
                 <h2 class="card-title mb-4 fw-bold">Criminal Law</h2>
@@ -99,7 +105,7 @@
             </div>
           </div>
           <div class="col px-5">
-            <div class="card h-100 py-5 px-lg-3">
+            <div class=" h-100 py-5 px-lg-3">
               <img src="images/child.png" class="w-25 mx-auto mb-4" alt="...">
               <div class="card-body">
                 <h2 class="card-title mb-4 fw-bold">Child Law</h2>
@@ -109,7 +115,7 @@
             </div>
           </div>
           <div class="col px-5">
-            <div class="card h-100 py-5 px-lg-3">
+            <div class=" h-100 py-5 px-lg-3">
               <img src="images/education.png" class="w-25 mx-auto mb-4" alt="...">
               <div class="card-body">
                 <h2 class="card-title mb-4 fw-bold">Education Law</h2>
@@ -119,7 +125,7 @@
             </div>
           </div>
           <div class="col px-5">
-            <div class="card h-100 py-5 px-lg-3">
+            <div class=" h-100 py-5 px-lg-3">
               <img src="images/divorce.png" class="w-25 mx-auto mb-4" alt="...">
               <div class="card-body">
                 <h2 class="card-title mb-4 fw-bold">Divorce Law</h2>
@@ -129,7 +135,7 @@
             </div>
           </div>
           <div class="col px-5">
-            <div class="card h-100 py-5 px-lg-3">
+            <div class=" h-100 py-5 px-lg-3">
               <img src="images/tax.png" class="w-25 mx-auto mb-4" alt="...">
               <div class="card-body">
                 <h2 class="card-title mb-4 fw-bold">Tax Law</h2>
@@ -142,6 +148,8 @@
         </div>
 
       </section>
+
+      
     </main>
 
 
