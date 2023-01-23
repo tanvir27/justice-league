@@ -1,3 +1,4 @@
+
 /* font family  */
 
 nav,
@@ -27,7 +28,6 @@ h2 {
     background-image: url(../images/banner.png);
     background-repeat: no-repeat;
     background-size: cover; 
-    
 
 }
 /* legal-practice */
@@ -45,6 +45,5 @@ h2 {
     .banner-section{
         height: 100%;
         width: 100%;
-    }
     }
 }
