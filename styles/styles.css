@@ -1,0 +1,39 @@
+/* font family  */
+
+nav , p, button{
+    font-family: 'Poppins', sans-serif;
+}
+
+h1 , h2{
+    font-family: 'EB Garamond', serif;
+}
+/* primary color */
+.primary-color{
+    color: #B68C5A;
+}
+
+.text-color{
+    color: #707070;
+}
+
+/* banner section */
+
+.banner-section{
+    background-image: url('../images/banner.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 550px;
+    width: 100%;
+    padding: 140px 0;
+}
+
+/* legal-practice */
+
+/* .legal-practice img{
+    margin: 0 auto;
+} */
+
+@media screen and (min-width: 576px) {
+   
+}
