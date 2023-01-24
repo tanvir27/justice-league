@@ -1,6 +1,5 @@
 
 /* font family  */
-
 nav,
 p,
 button {
@@ -19,9 +18,7 @@ h2, h3 {
 .text-color {
   color: #707070;
 }
-
 /* banner section */
-
 .banner-section{
     height: 550px;
     width: 100%;
@@ -30,20 +27,49 @@ h2, h3 {
     background-size: cover; 
 
 }
-/* legal-practice */
-
-/* .legal-practice img{
-    margin: 0 auto;
-} */
 
 .card-background-shadow {
   background: linear-gradient(180deg, #f3f3f3 0%, rgba(243, 243, 243, 0) 100%);
   border: 1px solid #e7e7e7;
 }
 
-@media screen and (min-width: 576px) {
+/* carousel  */
+.carousel-indicators{
+  margin-bottom: 70px;
+ } 
+
+@media screen and (max-width: 576px) 
+{
     .banner-section{
         height: 100%;
         width: 100%;
     }
+
+    .carousel-caption{
+      height: auto;
+      width: auto;
+      margin-bottom: 0px !important;
+      padding: 0px 0px 0px 0px !important;
+      margin: none;
+  }
+  
+  .carousel-indicators{
+      margin-bottom: 0px !important;
+      padding: none;
+      margin: none;
+  }
+  .bdorNone{
+      border: none !important;
+      margin-left: 20px;
+  }
+  .text-fusion{
+      display: none;
+
+  }
+  .ux-none{
+      display: none;
+  }
+ .name{
+  display: none;
+ }
 }
